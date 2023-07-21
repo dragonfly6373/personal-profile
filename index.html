@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Profile - Dang Trung Nguyen</title>
+		<link rel="stylesheet" href="./layout.css"/>
+		<link rel="stylesheet" href="./styles.css"/>
+		<!-- <script type="module" src="./index.js"></script> -->
+		<script type="module">
+			import UserInfo from './UserInfo.js';
+			import profile from './data/profile.json' assert { type: "json" };
+			// import moment from 'moment';
+			var data = profile;
+
+			var displayNameElem = document.getElementById("displayName");
+			var userAvatarElem = document.getElementById("userAvatar");
+			var currentJobElem = document.getElementById("currentJob");
+			var contactsElem = document.getElementById("contacts");
+			var aboutsElem = document.getElementById("abouts");
+			var skillsElem = document.getElementById("skills");
+			var experiencesElem = document.getElementById("experiences");
+			var educationsElem = document.getElementById("educations");
+			var activitiesElem = document.getElementById("activities");
+
+			var userComponent = new UserInfo(document.getElementById("main"), profile);
+			// userComponent.initElement({displayNameElem, userAvatarElem, currentJobElem, contactsElem, aboutsElem, skillsElem, experiencesElem, educationsElem, activitiesElem});
+		</script>
+	</head>
+	<body>
+		<div id="main" class="main">
+			<div class="intro">
+				<div class="banner">
+					<img id="userAvatar" class="avatar" />
+				</div>
+				<div class="info">
+					<div class="left-pane">
+						<h3 id="displayName"></h3>
+						<h5 id="currentJob"></h5>
+						<div id="contacts" class="contact-infos"></div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<h4 class="title">About</h4>
+				<div id="abouts" class="group">
+					<!-- short description -->
+				</div>
+			</div>
+			<div class="card">
+				<h4 class="title">Skill</h4>
+				<div id="skills" class="skills group row">
+					<!-- group title -->
+					<!-- item list -->
+				</div>
+			</div>
+			<div class="card">
+				<h4 class="title">Experience</h4>
+				<div id="experiences" class="experiences group split"></div>
+			</div>
+			<div class="card">
+				<h4 class="title">Education</h4>
+				<div id="educations" class="group"></div>
+			</div>
+			<div class="card">
+				<h4 class="title">Activity</h4>
+				<div id="activities" class="activities group row"></div>
+			</div>
+		</div>
+	</body>
+</html>
+

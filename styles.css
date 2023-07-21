@@ -1,0 +1,98 @@
+.main {
+    width: 960px;
+    margin: 1em auto 1em auto;
+}
+
+.intro {
+    border: 1px solid var(--border-color);
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.banner {
+    min-height: 160px;
+    background: var(--link-color);
+}
+.banner > .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #FFF;
+    transform: translate(2em, 50%);
+}
+.info {
+    margin-top: 3em;
+    padding: 1em;
+}
+.contact-infos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+}
+.contact-infos .item {
+    flex: 1 50%;
+    display: flex;
+    padding: 0.25em 0;
+}
+.contact-infos .item .icon {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 1em;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skills > .item {
+    flex: 0 48%;
+    margin-bottom: 1em;
+}
+.skills .progress-bar {
+    border: 1px solid var(--border-color);
+    border-radius: 0.1em;
+    height: 0.2em;
+    overflow: hidden;
+}
+.skills .progress-bar .score {
+    height: 100%;
+    background-color: var(--border-color);
+}
+.experiences {
+    border-left: 4px solid var(--border-color);
+    padding-left: 0.6em;
+}
+.experiences > .item:before {
+    content: ' ';
+    width: 0.5em;
+    height: 0.5em;
+    background: var(--primary-color);
+    position: absolute;
+    transform: translateX(-1.2em);
+    border-radius: 50%;
+    border: 0.2em solid white;
+}
+.left-pane {
+
+}
+.contact {
+
+}
+.abouts {
+
+}
+.group {
+
+}
+
+.activities .item {
+    flex: 1 50%;
+    display: flex;
+    padding: 0.25em 0;
+    align-items: center;
+}
+.activities .item .icon {
+    width: 3em;
+    height: 3em;
+}

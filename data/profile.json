@@ -1,0 +1,150 @@
+{
+	"root_url": "./data",
+	"first_name": "Nguyen",
+	"mid_name": "Trung",
+	"last_name": "Dang",
+	"avatar": "avatar.jpeg",
+	"contact_infos": [
+        {
+            "title": "Address",
+			"alias": "Ho Chi Minh city, Viet Nam",
+            "href": "https://goo.gl/maps/2dwCmRYRWjgL9sSn8",
+            "icon": "location"
+        },
+		{
+			"title": "Phone",
+			"alias": "+84989043662",
+			"href": "tel:+84989043662",
+			"icon": "phone"
+		},
+        {
+            "title": "Email",
+			"alias": "trungnguyen.dang2020@gmail.com",
+            "href": "mailto:trungnguyen.dang2020@gmail.com",
+            "icon": "email"
+        },
+		{
+			"title": "LinkedIn",
+			"alias": "trung-nguyen-dang-9934418a",
+			"href": "https://www.linkedin.com/in/trung-nguyen-dang-9934418a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bqu1pIqyhQJWc6gnIxEGEvQ%3D%3D",
+			"icon": "linkedin"
+		},
+        {
+            "title": "Skype",
+			"alias": "nguyendang2012",
+            "href": "https://join.skype.invite/j5y2VG8DMEzD",
+            "icon": "skype"
+        },
+        {
+            "title": "Telegram",
+			"alias": "nguyendang2020",
+            "href": "https://t.me/nguyendang2020",
+            "icon": "message"
+        }
+	],
+	"abouts": [
+		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
+		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
+		"Node JS: Electron, Express JS, React JS, Gulp, Babel.",
+		"Build tools: Webpack, Gulp",
+		"DataBase: Mysql, PostgreSQL, MongoDB",
+		"Load balancers: Redis, NATs",
+		"Others: CSV, XML, JSON, XSLT",
+		"OS: MAC OS X, Linux Fedora and Ubuntu",
+		"Project management tools: Git, Redmine, Svn, Jira, Docker"
+	],
+	"skills": [
+		{"title": "Java", "score": 7},
+		{"title": "Node JS", "score": 8},
+		{"title": "HTML", "score": 9},
+		{"title": "CSS, LESS, SASS", "score": 9},
+		{"title": "Postgre SQL", "score": 8},
+		{"title": "MongoDB", "score": 7}
+	],
+	"experiences": [
+		{
+			"title": "Software Engineer",
+			"start_time": 1609606800000,
+			"end_time": null,
+			"company_name": "VNPT IT",
+			"contract": "Full-time",
+			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, Webrtc, Mediasoup, Linux, GitHub, Jenkins",
+			"description": {
+				"Project": "GoMeet - EConference, WebRTC, MediaSoup",
+				"Role": "Team Leader, Business Analyst, Software Architect",
+				"Languages and technologies": "Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs. Frontend: Angular, Socket.IO - client, MediaSoup Client."
+			}
+		},
+		{
+			"title": "Senior Software Engineer",
+			"start_time": 1512061200000,
+			"end_time": 1614445200000,
+			"company_name": "Evolus VN",
+			"contract": "Full-time",
+			"kills": "Vanilla JS prototype, XHTML, Gulp, Webpack, HTML, CSS, LESS, SCSS, SASS, GitHub, Linux, MySQL, PostgreSQL",
+			"description": {
+				"Project": "NBC Sport Engine - manage student registration, lesson classes, statistic report.",
+				"Role": "Fullstack Java Web Developer",
+				"Jobs": "",
+				"- Java": "Write services api for mobile and web. Connect database (PostgreSql), aggregate data response JSON data.",
+				"- JavaScript/HTML/CSS": "Vanilla JS prototype component, HTML flex-box layout, Less CSS.",
+				"- Others": "Node JS: Express JS + React JS + Gulp Babel"
+			}
+		},
+		{
+			"title": "Software Developer",
+			"start_time": 1417366800000,
+			"end_time": 1504112400000,
+			"company_name": "NEC VN",
+			"contract": "Full-time",
+			"kills": "Java - OOP, HTML, CSS, jQuery, MySQL",
+			"description": {
+				"Role": "Web developer for both front-end and back-end",
+				"- Java": "Spring Frameworks, Velocity, myBatis",
+				"- Front-end": "jQuery, Ajax, Angular, Cordova",
+				"- Self-learning": "Python, Django, Angular, TypeScript, NativeScript"
+			}
+		},
+		{
+			"title": "Web Developer",
+			"start_time": 1367514000000,
+			"end_time": 1412010000000,
+			"company_name": "ESI Tech, Vietnam",
+			"contract": "Full-time",
+			"kills": "Vanilla JS, Linux, HTML, CSS, MySQL, XSLT, OpenLayers",
+			"description": {
+				"Job": "Write JavaScript, jQuery, transform XML with XSLT file, draw chart with highchart, Map API (OpenLayers, Google Map), jQuery pages with JSON data",
+				"Environment": "Linux (Oracle Linux, Fedora 18/19/20)."
+			}
+		}
+	],
+	"educations": [
+		{
+			"title": "Engineers's degree, Information Technology",
+			"school_name": "Water Resources University",
+			"start_time": "09-05-2008",
+			"end_time": "12-30-2012",
+			"grade": "Good"
+		}
+	],
+	"activities": [
+		{
+			"title": "Badminton",
+			"icon": "tennis",
+			"description": ""
+		}, {
+			"title": "Cycling",
+			"icon": "bike",
+			"description": ""
+		}, {
+			"title": "Swimming",
+			"icon": "swim",
+			"description": ""
+		}, {
+			"title": "Reading Book",
+			"icon": "book",
+			"description": ""
+		}
+	]
+}
+
