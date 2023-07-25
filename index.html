@@ -5,7 +5,7 @@
 		<link rel="stylesheet" href="./layout.css"/>
 		<link rel="stylesheet" href="./styles.css"/>
 		<!-- <script type="module" src="./index.js"></script> -->
-		<script type="module">
+		<script defer type="module">
 			import UserInfo from './UserInfo.js';
 			import profile from './data/profile.json' assert { type: "json" };
 			// import moment from 'moment';
@@ -16,6 +16,7 @@
 			var currentJobElem = document.getElementById("currentJob");
 			var contactsElem = document.getElementById("contacts");
 			var aboutsElem = document.getElementById("abouts");
+			var summaryElem = document.getElementById("summary");
 			var skillsElem = document.getElementById("skills");
 			var experiencesElem = document.getElementById("experiences");
 			var educationsElem = document.getElementById("educations");
@@ -42,6 +43,12 @@
 			<div class="card">
 				<h4 class="title">About</h4>
 				<div id="abouts" class="group">
+					<!-- short description -->
+				</div>
+			</div>
+			<div class="card">
+				<h4 class="title">Summary</h4>
+				<div id="summary" class="group">
 					<!-- short description -->
 				</div>
 			</div>

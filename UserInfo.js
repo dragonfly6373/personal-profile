@@ -19,6 +19,7 @@ export default class UserInfo {
         this.currentJobElem = this._doc.querySelector("[id=currentJob]");
         this.contactsElem = this._doc.querySelector("[id=contacts]");
         this.aboutsElem = this._doc.querySelector("[id=abouts]");
+        this.summaryElem = this._doc.querySelector("[id=summary]");
         this.skillsElem = this._doc.querySelector("[id=skills]");
         this.experiencesElem = this._doc.querySelector("[id=experiences]");
         this.educationsElem = this._doc.querySelector("[id=educations]");
@@ -63,6 +64,9 @@ export default class UserInfo {
         });
         this.userInfo.abouts.forEach(item => {
             this.aboutsElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
+        });
+        this.userInfo.summary.forEach(item => {
+            this.summaryElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
         });
         this.userInfo.skills.forEach(item => {
             this.skillsElem.appendChild(newDomNode("div", {

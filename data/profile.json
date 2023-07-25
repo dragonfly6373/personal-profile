@@ -43,6 +43,13 @@
         }
 	],
 	"abouts": [
+		"Strong at data analysis, data structure and algorithm, complex math solve.",
+		"Customer experiences: customer requirement, technical analysis.",
+		"Strong JavaScript skill: web dev for both jQuery, Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
+		"Expected Job: Web Dev (Java - J2EE, Spring Framework), FullStack Web dev (JavaScript - NodeJS, React, HTML, CSS, jQuery), Geometry Map (draw line, polygon, marker, direction)",
+		"Slogan: Nothing is impossible."
+	],
+	"summary": [
 		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
 		"Node JS: Electron, Express JS, React JS, Gulp, Babel.",
@@ -54,12 +61,15 @@
 		"Project management tools: Git, Redmine, Svn, Jira, Docker"
 	],
 	"skills": [
-		{"title": "Java", "score": 7},
-		{"title": "Node JS", "score": 8},
+		{"title": "Node JS", "score": 9},
 		{"title": "HTML", "score": 9},
 		{"title": "CSS, LESS, SASS", "score": 9},
-		{"title": "Postgre SQL", "score": 8},
-		{"title": "MongoDB", "score": 7}
+		{"title": "PostgreSQL", "score": 8},
+		{"title": "Java", "score": 7},
+		{"title": "MongoDB", "score": 7},
+		{"title": "Web RTC", "score": 7},
+		{"title": "Docker", "score": 6},
+		{"title": "Linux", "score": 6}
 	],
 	"experiences": [
 		{
@@ -72,6 +82,7 @@
 			"description": {
 				"Project": "GoMeet - EConference, WebRTC, MediaSoup",
 				"Role": "Team Leader, Business Analyst, Software Architect",
+				"Job": "As a programming team leader, an architect, I am responsible for ensuring product quality from UI/UX to distributed logic architectures. Design software architecture, give best business solution, help team member to resove technical problem, review source for team member, merge source, build source and deploy dev and production.",
 				"Languages and technologies": "Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs. Frontend: Angular, Socket.IO - client, MediaSoup Client."
 			}
 		},
