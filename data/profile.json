@@ -52,7 +52,7 @@
 	"summary": [
 		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
-		"Node JS: Electron, Express JS, React JS, Gulp, Babel.",
+		"Node JS: OOP, Decorator - Reflect MetaData, Electron, Express JS, React JS, Babel",
 		"Build tools: Webpack, Gulp",
 		"DataBase: Mysql, PostgreSQL, MongoDB",
 		"Load balancers: Redis, NATs",
@@ -136,6 +136,28 @@
 			"start_time": "09-05-2008",
 			"end_time": "12-30-2012",
 			"grade": "Good"
+		}
+	],
+	"projects": [
+		{
+			"title": "Media Monitor",
+			"href": "https://github.com/dragonfly6373/media-monitor",
+			"description": "There is a demo where you can live streaming on Youtube or any RTMP Server, or record any web session to media file and play it back. Keywords: #Screen Capure, #Live Streaming, #Puppeteer, #XVFB, #FFMPEG, #PulseAudio"
+		},
+		{
+			"title": "Logger JS",
+			"href": "https://github.com/dragonfly6373/logger-js",
+			"description": "Write node backend log to file and console 4 different levels of logging in a specific order: 'errror', 'warn', 'info', 'debug'"
+		},
+		{
+			"title": "Font Icons",
+			"href": "https://github.com/dragonfly6373/font-icons",
+			"description": "Python Script create font icons file from svgs. Output: myfont-icons.afm, myfont-icons.eot, myfont-icons.woff, myfont-icons.ttf, myfont-icons.woff2"
+		},
+		{
+			"title": "Media Catching",
+			"href": "https://github.com/dragonfly6373/MediaCatching",
+			"description": "Chrome Extension catching any media file url"
 		}
 	],
 	"activities": [

@@ -23,10 +23,11 @@ export default class UserInfo {
         this.skillsElem = this._doc.querySelector("[id=skills]");
         this.experiencesElem = this._doc.querySelector("[id=experiences]");
         this.educationsElem = this._doc.querySelector("[id=educations]");
+        this.projectsElem = this._doc.querySelector("[id=projects]");
         this.activitiesElem = this._doc.querySelector("[id=activities]");
     }
     
-    initElement({displayNameElem, userAvatarElem, currentJobElem, contactsElem, aboutsElem, skillsElem, experiencesElem, educationsElem, activitiesElem}) {
+    initElement({displayNameElem, userAvatarElem, currentJobElem, contactsElem, aboutsElem, skillsElem, experiencesElem, educationsElem, projectsElem, activitiesElem}) {
         this.displayNameElem = displayNameElem;
         this.userAvatarElem = userAvatarElem;
         this.currentJobElem = currentJobElem;
@@ -35,16 +36,19 @@ export default class UserInfo {
         this.skillsElem = skillsElem;
         this.experiencesElem = experiencesElem;
         this.educationsElem = educationsElem;
+        this.projectsElem = projectsElem;
         this.activitiesElem = activitiesElem;
 
         this.loadDom();
     }
 
-    loadDom() {
+    loadGeneralInfo() {
         this.displayNameElem.innerText = this.getDisplayName();
         this.userAvatarElem.setAttribute("src", [this.userInfo.root_url, this.userInfo.avatar].join("/"));
         let lastExperience = this.userInfo.experiences[0];
         this.currentJobElem.innerText = lastExperience.title + " - " + lastExperience.company_name;
+    }
+    loadContactInfo() {
         this.userInfo.contact_infos.map(item => {
             this.contactsElem.appendChild(
                 newDomNode("div", {
@@ -62,12 +66,9 @@ export default class UserInfo {
                 })
             );
         });
-        this.userInfo.abouts.forEach(item => {
-            this.aboutsElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
-        });
-        this.userInfo.summary.forEach(item => {
-            this.summaryElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
-        });
+    }
+
+    loadSkills() {
         this.userInfo.skills.forEach(item => {
             this.skillsElem.appendChild(newDomNode("div", {
                 className: "item column",
@@ -83,6 +84,9 @@ export default class UserInfo {
                 ]
             }))
         });
+    }
+
+    loadExperiences() {
         this.userInfo.experiences.forEach(item => {
             let data = new Experience(item);
             this.experiencesElem.appendChild(newDomNode("div", {
@@ -100,6 +104,9 @@ export default class UserInfo {
                 ]
             }));
         });
+    }
+
+    loadEducation() {
         this.userInfo.educations.forEach(item => {
             let start = new Date(item.start_time).toGMTString().substr(8, 8);
             let end = new Date(item.end_time).toGMTString().substr(8, 8);
@@ -113,6 +120,9 @@ export default class UserInfo {
                 ]
             }));
         });
+    }
+
+    loadActivities() {
         this.userInfo.activities.forEach(item => {
             this.activitiesElem.appendChild(newDomNode("div", {
                 className: "item column",
@@ -122,11 +132,42 @@ export default class UserInfo {
                 ]
             }))
 
-        })
+        });
     }
 
     getDisplayName() {
         return `${this.userInfo.mid_name} ${this.userInfo.first_name}, ${this.userInfo.last_name}`;
+    }
+
+    loadDom() {
+        this.loadGeneralInfo();
+        this.loadContactInfo();
+        
+        this.userInfo.abouts.forEach(item => {
+            this.aboutsElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
+        });
+        this.userInfo.summary.forEach(item => {
+            this.summaryElem.appendChild(newDomNode("div", {className: "item", innerText: item}));
+        });
+
+        this.loadSkills();
+        this.loadExperiences();
+        this.loadProjects();
+        this.loadEducation();
+        this.loadActivities();
+    }
+
+    loadProjects() {
+        this.userInfo.projects.forEach(item => {
+            this.projectsElem.appendChild(newDomNode("div", {
+                className: "item column",
+                _children: [
+                    newDomNode("h4", {innerText: item.title}),
+                    newDomNode("a", {innerText: item.href, href: item.href}),
+                    newDomNode("p", {innerText: item.description}),
+                ]
+            }));
+        });
     }
 }
 
