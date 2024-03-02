@@ -3,7 +3,7 @@
 	"first_name": "Nguyen",
 	"mid_name": "Trung",
 	"last_name": "Dang",
-	"avatar": "avatar.jpeg",
+	"avatar": "Face01.jpg",
 	"contact_infos": [
         {
             "title": "Address",
@@ -44,32 +44,32 @@
 	],
 	"abouts": [
 		"Strong at data analysis, data structure and algorithm, complex math solve.",
-		"Customer experiences: customer requirement, technical analysis.",
-		"Strong JavaScript skill: web dev for both jQuery, Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
-		"Expected Job: Web Dev (Java - J2EE, Spring Framework), FullStack Web dev (JavaScript - NodeJS, React, HTML, CSS, jQuery), Geometry Map (draw line, polygon, marker, direction)",
+		"Customer experiences: customer requirement, Business Analyst, technical analysis.",
+		"Very strong Web Development: web dev for both jQuery, Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
+		"Have a good knowledge UML Design, Modeling Design, DataBase Schemas",
+		"Expected Job: Web Dev (Java - J2EE, Spring Boot), FullStack Web dev (JavaScript - NodeJS, React, HTML, CSS, jQuery), Geometry Map (draw line, polygon, marker, direction)",
+		"Books and Music are always my best friend from any time, any where",
 		"Slogan: Nothing is impossible."
 	],
 	"summary": [
 		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
-		"Node JS: OOP, Decorator - Reflect MetaData, Electron, Express JS, React JS, Babel",
-		"Build tools: Webpack, Gulp",
+		"Node JS: OOP, Decorator - Reflect MetaData, Electron, Express JS, Cluster, PM2, Puppeteer, Worker Threads, Child Processes, Webpack, Gulp",
 		"DataBase: Mysql, PostgreSQL, MongoDB",
-		"Load balancers: Redis, NATs",
-		"Others: CSV, XML, JSON, XSLT",
-		"OS: MAC OS X, Linux Fedora and Ubuntu",
-		"Project management tools: Git, Redmine, Svn, Jira, Docker"
+		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch",
+		"Load balancers: Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
+		"OS: Windows, MAC OS X, Linux Fedora, Ubuntu, Pop!_OS, Debian, CentOS",
+		"Other Tools: Docker, Git, Redmine, Svn, Jira, Docker, Rancher, Jenkins"
 	],
 	"skills": [
 		{"title": "Node JS", "score": 9},
 		{"title": "HTML", "score": 9},
 		{"title": "CSS, LESS, SASS", "score": 9},
 		{"title": "PostgreSQL", "score": 8},
-		{"title": "Java", "score": 7},
+		{"title": "Java", "score": 8},
 		{"title": "MongoDB", "score": 7},
-		{"title": "Web RTC", "score": 7},
-		{"title": "Docker", "score": 6},
-		{"title": "Linux", "score": 6}
+		{"title": "Docker", "score": 7},
+		{"title": "Linux", "score": 7}
 	],
 	"experiences": [
 		{
@@ -78,12 +78,15 @@
 			"end_time": null,
 			"company_name": "VNPT IT",
 			"contract": "Full-time",
-			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, Webrtc, Mediasoup, Linux, GitHub, Jenkins",
+			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, WebRTC, Mediasoup, Kamailio, Asterisk, Linux, GitHub, Jenkins",
 			"description": {
 				"Project": "GoMeet - EConference, WebRTC, MediaSoup",
-				"Role": "Team Leader, Business Analyst, Software Architect",
+				"Role": "Team Leader",
 				"Job": "As a programming team leader, an architect, I am responsible for ensuring product quality from UI/UX to distributed logic architectures. Design software architecture, give best business solution, help team member to resove technical problem, review source for team member, merge source, build source and deploy dev and production.",
-				"Languages and technologies": "Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs. Frontend: Angular, Socket.IO - client, MediaSoup Client."
+				"Languages and technologies": "",
+				"- Backend:": "NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
+				"- Frontend:": "Angular, React JS, Socket.IO - client, MediaSoup Client.",
+				"- WebRTC Intenet Telephony": "Kamailio Server, Asterisk Server, FreeSwitch, Ffmpeg"
 			}
 		},
 		{
@@ -129,15 +132,6 @@
 			}
 		}
 	],
-	"educations": [
-		{
-			"title": "Engineers's degree, Information Technology",
-			"school_name": "Water Resources University",
-			"start_time": "09-05-2008",
-			"end_time": "12-30-2012",
-			"grade": "Good"
-		}
-	],
 	"projects": [
 		{
 			"title": "Media Monitor",
@@ -158,6 +152,20 @@
 			"title": "Media Catching",
 			"href": "https://github.com/dragonfly6373/MediaCatching",
 			"description": "Chrome Extension catching any media file url"
+		}
+	],
+	"educations": [
+		{
+			"title": "Engineers's degree, Information Technology",
+			"school_name": "Water Resources University",
+			"start_time": "09-05-2008",
+			"end_time": "12-30-2012",
+			"grade": "Good"
+		},
+		{
+			"title": "English - Communication",
+			"school_name": "TOEIC",
+			"grade": "545"
 		}
 	],
 	"activities": [
