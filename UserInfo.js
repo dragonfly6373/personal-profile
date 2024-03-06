@@ -95,12 +95,16 @@ export default class UserInfo {
                     newDomNode("h4", {innerText: data.title}),
                     newDomNode("em", {innerText: data.company + " · " + data.contract}),
                     newDomNode("em", {innerText: data.workTime}),
-                    newDomNode("ul", {_children: Object.entries(data.description).map(([k,v]) => {
-                        return newDomNode("li", { className: "row", _children: [
-                            newDomNode("span", { className: "label", innerText: k }),
-                            newDomNode("span", { className: "content", innerText: v })
-                        ]});
-                    })})
+                    newDomNode("div", {
+                        className: "column",
+                        _children: data.projects.map((project) => {
+                            return newDomNode("div", { className: "column", _children: [
+                                project.name ? newDomNode("h4", { className: "content", innerText: project.name }) : null,
+                                newDomNode("span", { className: "content", innerText: "Role: " + project.role }),
+                                ...project.description.map(detail => newDomNode("span", { className: "content", innerText: detail }))
+                            ]});
+                        })
+                    })
                 ]
             }));
         });
@@ -115,7 +119,7 @@ export default class UserInfo {
                 _children: [
                     newDomNode("h4", {innerText: item.school_name}),
                     newDomNode("em", {innerText: item.title}),
-                    newDomNode("em", {innerText: start + " - " + end}),
+                    (item.start_time && item.end_time) ? newDomNode("em", {innerText: start + " - " + end}) : null,
                     newDomNode("span", {innerText: "Grade: " + item.grade})
                 ]
             }));
@@ -175,7 +179,7 @@ function newDomNode(tagname, attrs) {
     let node = document.createElement(tagname);
     Object.entries(attrs).forEach(([key, val]) => {
         if (key == "_children" && val.length) {
-            val.forEach(i => {node.appendChild(i)});
+            val.forEach(i => { if (i) node.appendChild(i)});
         } else if (key == "_attributes") {
             Object.entries(val).forEach(([k, v]) => {node.setAttribute(k, v)});
 
@@ -194,7 +198,7 @@ class Experience {
         this.company = data.company_name;
         this.contract = data.contract;
         this.kills = data.kills;
-        this.description = data.description;
+        this.projects = data.projects;
     }
 
     get duration() {

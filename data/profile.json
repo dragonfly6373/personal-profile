@@ -79,15 +79,33 @@
 			"company_name": "VNPT IT",
 			"contract": "Full-time",
 			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, WebRTC, Mediasoup, Kamailio, Asterisk, Linux, GitHub, Jenkins",
-			"description": {
-				"Project": "GoMeet - EConference, WebRTC, MediaSoup",
-				"Role": "Team Leader",
-				"Job": "As a programming team leader, an architect, I am responsible for ensuring product quality from UI/UX to distributed logic architectures. Design software architecture, give best business solution, help team member to resove technical problem, review source for team member, merge source, build source and deploy dev and production.",
-				"Languages and technologies": "",
-				"- Backend:": "NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
-				"- Frontend:": "Angular, React JS, Socket.IO - client, MediaSoup Client.",
-				"- WebRTC Intenet Telephony": "Kamailio Server, Asterisk Server, FreeSwitch, Ffmpeg"
-			}
+			"projects": [
+				{
+					"name": "GoMeet",
+					"role": "Team Leader",
+					"description": [
+						"- GoMeet - is a high-quality video calling app designed to help you have meaningful and fun interactions with your friends, family, colleagues, and classmates, wherever they are. It’s the only app that has communities, events, chats, share files, meetings, presetating in one place.",
+						"- As a team leader, an architect, I am responsible for ensuring product quality from UI/UX to distributed logic architectures. Design software architecture, give best business solution, help team member to resove technical problem, review source for team member, merge source, build source and deploy dev and production.",
+						"Languages and technologies:",
+						"- Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
+						"- Frontend: Angular, React JS, Socket.IO - client, MediaSoup Client."
+					]
+				}, {
+					"name": "Live Stream Server",
+					"role": "Team Leader",
+					"description": [
+						"Create web client capture screen and live stream to RTMP Server such as Youtube, Facebook or any other CDN LiveStreaming Server",
+						"Languages and technologies:",
+						"- WebRTC Intenet Telephony Kamailio Server, Asterisk Server, FreeSwitch, Ffmpeg"
+					]
+					
+				}, {
+					"name": "VCP - Video Call Platform",
+					"role": "R&D (work independent)",
+					"description": [
+						"- R&D learning about VOIP Server. Build Call Center system with Asterisk Server, Kamailio Server."
+					]
+				}]
 		},
 		{
 			"title": "Senior Software Engineer",
@@ -96,14 +114,16 @@
 			"company_name": "Evolus VN",
 			"contract": "Full-time",
 			"kills": "Vanilla JS prototype, XHTML, Gulp, Webpack, HTML, CSS, LESS, SCSS, SASS, GitHub, Linux, MySQL, PostgreSQL",
-			"description": {
-				"Project": "NBC Sport Engine - manage student registration, lesson classes, statistic report.",
-				"Role": "Fullstack Java Web Developer",
-				"Jobs": "",
-				"- Java": "Write services api for mobile and web. Connect database (PostgreSql), aggregate data response JSON data.",
-				"- JavaScript/HTML/CSS": "Vanilla JS prototype component, HTML flex-box layout, Less CSS.",
-				"- Others": "Node JS: Express JS + React JS + Gulp Babel"
-			}
+			"projects": [{
+				"name": "NBC Sport Engine",
+				"role": "Fullstack Java Web Developer",
+				"description": [
+					"- NBC Sport Engine - Club team manage student registration, Lesson classes training and competition, Business analytics, statistic report.",
+					"- Java: Write services api for mobile and web. Connect database (PostgreSql), aggregate data response JSON data.",
+					"- JavaScript/HTML/CSS: Vanilla JS prototype component, HTML flex-box layout, Less CSS.",
+					"- Others: Node JS: Express JS + React JS + Gulp Babel"
+				]
+			}]
 		},
 		{
 			"title": "Software Developer",
@@ -112,12 +132,15 @@
 			"company_name": "NEC VN",
 			"contract": "Full-time",
 			"kills": "Java - OOP, HTML, CSS, jQuery, MySQL",
-			"description": {
-				"Role": "Web developer for both front-end and back-end",
-				"- Java": "Spring Frameworks, Velocity, myBatis",
-				"- Front-end": "jQuery, Ajax, Angular, Cordova",
-				"- Self-learning": "Python, Django, Angular, TypeScript, NativeScript"
-			}
+			"projects": [{
+				"name": "Waseda University",
+				"role": "Web developer for both front-end and back-end",
+				"description": [
+					"- Java: Spring Frameworks, Velocity, myBatis",
+					"- Front-end: jQuery, Ajax, Angular, Cordova",
+					"- Self-learning: Python, Django, Angular, TypeScript, NativeScript"
+				]
+			}]
 		},
 		{
 			"title": "Web Developer",
@@ -126,17 +149,20 @@
 			"company_name": "ESI Tech, Vietnam",
 			"contract": "Full-time",
 			"kills": "Vanilla JS, Linux, HTML, CSS, MySQL, XSLT, OpenLayers",
-			"description": {
-				"Job": "Write JavaScript, jQuery, transform XML with XSLT file, draw chart with highchart, Map API (OpenLayers, Google Map), jQuery pages with JSON data",
-				"Environment": "Linux (Oracle Linux, Fedora 18/19/20)."
-			}
+			"projects": [{
+				"role": "Software Developer",
+				"description": [
+					"Write JavaScript, jQuery, transform XML with XSLT file, draw chart with highchart, Map API (OpenLayers, Google Map), jQuery pages with JSON data",
+					"Environment: Linux (Oracle Linux, Fedora 18/19/20)."
+				]
+			}]
 		}
 	],
 	"projects": [
 		{
 			"title": "Media Monitor",
 			"href": "https://github.com/dragonfly6373/media-monitor",
-			"description": "There is a demo where you can live streaming on Youtube or any RTMP Server, or record any web session to media file and play it back. Keywords: #Screen Capure, #Live Streaming, #Puppeteer, #XVFB, #FFMPEG, #PulseAudio"
+			"description": "There is a demo where you can live streaming on Youtube or any RTMP Server, or record any web session to media file and playback"
 		},
 		{
 			"title": "Logger JS",
@@ -165,7 +191,7 @@
 		{
 			"title": "English - Communication",
 			"school_name": "TOEIC",
-			"grade": "545"
+			"grade": "545/990"
 		}
 	],
 	"activities": [
