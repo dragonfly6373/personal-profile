@@ -7,7 +7,7 @@
 		<!-- <script type="module" src="./index.js"></script> -->
 		<script defer type="module">
 			import UserInfo from './UserInfo.js';
-			import profile from './data/profile.json' assert { type: "json" };
+			import profile from './data/profile.json' with { type: "json" };
 			// import moment from 'moment';
 			var data = profile;
 
@@ -20,6 +20,7 @@
 			var skillsElem = document.getElementById("skills");
 			var experiencesElem = document.getElementById("experiences");
 			var educationsElem = document.getElementById("educations");
+			var projectsElement = document.getElementById("projects");
 			var activitiesElem = document.getElementById("activities");
 
 			var userComponent = new UserInfo(document.getElementById("main"), profile);
@@ -34,44 +35,47 @@
 				</div>
 				<div class="info">
 					<div class="left-pane">
-						<h3 id="displayName"></h3>
-						<h5 id="currentJob"></h5>
+						<h2 id="displayName"></h2>
+						<h4 id="currentJob"></h4>
 						<div id="contacts" class="contact-infos"></div>
 					</div>
 				</div>
 			</div>
 			<div class="card">
-				<h4 class="title">About</h4>
-				<div id="abouts" class="group">
+				<h3 class="title">About</h3>
+				<div id="abouts" class="column">
 					<!-- short description -->
 				</div>
 			</div>
 			<div class="card">
-				<h4 class="title">Summary</h4>
-				<div id="summary" class="group">
+				<h3 class="title">Summary</h3>
+				<div id="summary" class="column">
 					<!-- short description -->
 				</div>
 			</div>
 			<div class="card">
-				<h4 class="title">Skill</h4>
-				<div id="skills" class="skills group row">
+				<h3 class="title">Skill</h3>
+				<div id="skills" class="skills row">
 					<!-- group title -->
 					<!-- item list -->
 				</div>
 			</div>
 			<div class="card">
-				<h4 class="title">Experience</h4>
+				<h3 class="title">Experience</h3>
 				<div id="experiences" class="experiences group split"></div>
 			</div>
 			<div class="card">
-				<h4 class="title">Education</h4>
+				<h3 class="title">My Free Time Projects</h3>
+				<div id="projects" class="projects group"></div>
+			</div>
+			<div class="card">
+				<h3 class="title">Education</h3>
 				<div id="educations" class="group"></div>
 			</div>
 			<div class="card">
-				<h4 class="title">Activity</h4>
+				<h3 class="title">Activity</h3>
 				<div id="activities" class="activities group row"></div>
 			</div>
 		</div>
 	</body>
 </html>
-
