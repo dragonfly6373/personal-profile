@@ -43,7 +43,9 @@
         }
 	],
 	"abouts": [
-		"Strong at data analysis, data structure and algorithm, complex math solve.",
+		"Strong data analysis, data structures, and algorithm skills.",
+		"Expertise in JavaScript, both Vanilla JS and frameworks like React, along with TypeScript and OOP principles.",
+		"Extensive experience in web development frameworks (NodeJS, React), Java (Spring MVC, Spring Boot), and database management (MySQL, PostgreSQL, MongoDB).",
 		"Customer experiences: customer requirement, Business Analyst, technical analysis.",
 		"Very strong Web Development: web dev for both jQuery, Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
 		"Have a good knowledge UML Design, Modeling Design, DataBase Schemas",
@@ -57,7 +59,7 @@
 		"Node JS: OOP, Decorator - Reflect MetaData, Electron, Express JS, Cluster, PM2, Puppeteer, Worker Threads, Child Processes, Webpack, Gulp",
 		"DataBase: Mysql, PostgreSQL, MongoDB",
 		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch",
-		"Load balancers: Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
+		"Load balancers: Keepalived, HAProxy, NginX, Apache2, Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
 		"OS: Windows, MAC OS X, Linux Fedora, Ubuntu, Pop!_OS, Debian, CentOS",
 		"Other Tools: Docker, Git, Redmine, Svn, Jira, Docker, Rancher, Jenkins"
 	],
@@ -72,6 +74,23 @@
 		{"title": "Linux", "score": 7}
 	],
 	"experiences": [
+		{
+			"title": "Fullstack NodeJS",
+			"start_time": 1714521600000,
+			"end_time": null,
+			"company_name": "Standage Digitrad",
+			"contract": "Part-time Remote",
+			"kills": "Node.js, NestJS, React JS, typeorm, PostgreSql",
+			"projects": [
+				{
+					"name": "STANDAGE’s keywords are blockchain and emerging markets",
+					"role": "Fullstack Java Web Developer",
+					"description": [
+						"Job: Create from database model, write NestJS controller and service, to Front-end web UI implementation"
+					]
+				}
+			]
+		},
 		{
 			"title": "Software Engineer",
 			"start_time": 1609606800000,
