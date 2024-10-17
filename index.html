@@ -7,7 +7,7 @@
 		<!-- <script type="module" src="./index.js"></script> -->
 		<script defer type="module">
 			import UserInfo from './UserInfo.js';
-			import profile from './data/profile.json' assert { type: "json" };
+			import profile from './data/profile.json' with { type: "json" };
 			// import moment from 'moment';
 			var data = profile;
 
@@ -79,4 +79,3 @@
 		</div>
 	</body>
 </html>
-
