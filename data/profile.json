@@ -47,16 +47,15 @@
 		"Expertise in JavaScript, both Vanilla JS and frameworks like React, along with TypeScript and OOP principles.",
 		"Extensive experience in web development frameworks (NodeJS, React), Java (Spring MVC, Spring Boot), and database management (MySQL, PostgreSQL, MongoDB).",
 		"Customer experiences: customer requirement, Business Analyst, technical analysis.",
-		"Very strong Web Development: web dev for both jQuery, Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
+		"Very strong Web Development: Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
 		"Have a good knowledge UML Design, Modeling Design, DataBase Schemas",
 		"Expected Job: Web Dev (Java - J2EE, Spring Boot), FullStack Web dev (JavaScript - NodeJS, React, HTML, CSS, jQuery), Geometry Map (draw line, polygon, marker, direction)",
-		"Books and Music are always my best friend from any time, any where",
 		"Slogan: Nothing is impossible."
 	],
 	"summary": [
 		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
-		"Node JS: OOP, Decorator - Reflect MetaData, Electron, Express JS, Cluster, PM2, Puppeteer, Worker Threads, Child Processes, Webpack, Gulp",
+		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express JS, Cluster, PM2, Puppeteer, Webpack, Gulp",
 		"DataBase: Mysql, PostgreSQL, MongoDB",
 		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch",
 		"Load balancers: Keepalived, HAProxy, NginX, Apache2, Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
@@ -70,7 +69,7 @@
 		{"title": "PostgreSQL", "score": 8},
 		{"title": "Java", "score": 8},
 		{"title": "MongoDB", "score": 7},
-		{"title": "Docker", "score": 7},
+		{"title": "Kubernet", "score": 5},
 		{"title": "Linux", "score": 7}
 	],
 	"experiences": [
@@ -87,7 +86,6 @@
 					"role": "Team Leader",
 					"description": [
 						"- GoMeet - is a high-quality video calling app designed to help you have meaningful and fun interactions with your friends, family, colleagues, and classmates, wherever they are. It’s the only app that has communities, events, chats, share files, meetings, presetating in one place.",
-						"- As a team leader, an architect, I am responsible for ensuring product quality from UI/UX to distributed logic architectures. Design software architecture, give best business solution, help team member to resove technical problem, review source for team member, merge source, build source and deploy dev and production.",
 						"Languages and technologies:",
 						"- Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
 						"- Frontend: Angular, React JS, Socket.IO - client, MediaSoup Client."
