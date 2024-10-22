@@ -3,7 +3,7 @@
 	"first_name": "Nguyen",
 	"mid_name": "Trung",
 	"last_name": "Dang",
-	"avatar": "Face01.jpg",
+	"avatar": "avatar.jpeg",
 	"contact_infos": [
         {
             "title": "Address",
@@ -12,7 +12,7 @@
             "icon": "location"
         },
 		{
-			"title": "Phone",
+			"title": "Phone + WhatsApp",
 			"alias": "+84989043662",
 			"href": "tel:+84989043662",
 			"icon": "phone"
@@ -75,23 +75,6 @@
 	],
 	"experiences": [
 		{
-			"title": "Fullstack NodeJS",
-			"start_time": 1714521600000,
-			"end_time": null,
-			"company_name": "Standage Digitrad",
-			"contract": "Part-time Remote",
-			"kills": "Node.js, NestJS, React JS, typeorm, PostgreSql",
-			"projects": [
-				{
-					"name": "STANDAGE’s keywords are blockchain and emerging markets",
-					"role": "Fullstack Java Web Developer",
-					"description": [
-						"Job: Create from database model, write NestJS controller and service, to Front-end web UI implementation"
-					]
-				}
-			]
-		},
-		{
 			"title": "Software Engineer",
 			"start_time": 1609606800000,
 			"end_time": null,
@@ -114,15 +97,23 @@
 					"role": "Team Leader",
 					"description": [
 						"Create web client capture screen and live stream to RTMP Server such as Youtube, Facebook or any other CDN LiveStreaming Server",
-						"Languages and technologies:",
-						"- WebRTC Intenet Telephony Kamailio Server, Asterisk Server, FreeSwitch, Ffmpeg"
+						"Create client record with headless browser join to the meeting such as Google Meet, Zoom, Microsoft Teams ...",
+						"Languages and technologies: Node.js, Puppeteer, XVFB, FFMPEG"
 					]
 					
 				}, {
 					"name": "VCP - Video Call Platform",
 					"role": "R&D (work independent)",
 					"description": [
-						"- R&D learning about VOIP Server. Build Call Center system with Asterisk Server, Kamailio Server."
+						"- R&D learning about VOIP Server",
+						"- Build Call Center system with Asterisk Server, Kamailio Server."
+					]
+				}, {
+					"name": "iQMS",
+					"role": "Software Developer",
+					"description": [
+						"VNPT iQMS provides complete solutions for the entire process of appointment booking - payment - ticket collection - reception - quality assessment and supports information setup for units/hospitals.",
+						"Languages and technologies: Java Spring Boot, Spring Security, Hibernate, Mongodb, Log4j, Kafka, Swagger, Lombok, redis, MQTT, Node.js - Electron"
 					]
 				}]
 		},

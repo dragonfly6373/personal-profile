@@ -140,7 +140,7 @@ export default class UserInfo {
     }
 
     getDisplayName() {
-        return `${this.userInfo.mid_name} ${this.userInfo.first_name}, ${this.userInfo.last_name}`;
+        return `${this.userInfo.first_name}, ${this.userInfo.last_name}`;
     }
 
     loadDom() {
