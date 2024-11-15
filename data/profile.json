@@ -53,11 +53,11 @@
 		"Slogan: Nothing is impossible."
 	],
 	"summary": [
-		"Java: Java Core, OOP, Design Pattern, Spring MVC, Spring Boot, Maven",
+		"Java: Java Core, OOP, Design Pattern, Spring Boot, Maven",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
-		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express JS, Cluster, PM2, Puppeteer, Webpack, Gulp",
-		"DataBase: Mysql, PostgreSQL, MongoDB",
-		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch",
+		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express.js, Nest.js, Cluster, PM2, Puppeteer, Webpack, Gulp",
+		"DataBase: MySql, PostgreSQL, MongoDB",
+		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch, FFMPEG",
 		"Load balancers: Keepalived, HAProxy, NginX, Apache2, Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
 		"OS: Windows, MAC OS X, Linux Fedora, Ubuntu, Pop!_OS, Debian, CentOS",
 		"Other Tools: Docker, Git, Redmine, Svn, Jira, Docker, Rancher, Jenkins"
@@ -74,9 +74,35 @@
 	],
 	"experiences": [
 		{
+			"title": "Fullstack Node.js Developer",
+			"company_name": "Freelancer",
+			"contract": "remote",
+			"start_time": 1719100800000,
+			"projects": [
+				{
+					"name": "Beings (1 months)",
+					"role": "Fullstack Node.js",
+					"description": [
+						"Create innovative software businesses use for customer & market research. AI note-taking & analysis for research",
+						"Backend: Nodes.js - Nest.js, graphql, typeorm, MySql",
+						"Frontend: React.js"
+					]
+				},
+				{
+					"name": "Standage ltd (3 months)",
+					"role": "Fullstack Node.js",
+					"description": [
+						"Standage DigiTrad is a trade digital transformation platform that improves efficiency and digitalizes business processes, allowing trade operations to proceed more quickly and smoothly",
+						"Backend: Nodes.js - Nest.js, typeorm, Postgres",
+						"Frontend: React.js, Chart.js"
+					]
+				}
+			]
+		},
+		{
 			"title": "Software Engineer",
 			"start_time": 1609606800000,
-			"end_time": null,
+			"end_time": 1727049600000,
 			"company_name": "VNPT IT",
 			"contract": "Full-time",
 			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, WebRTC, Mediasoup, Kamailio, Asterisk, Linux, GitHub, Jenkins",
@@ -87,8 +113,8 @@
 					"description": [
 						"- GoMeet - is a high-quality video calling app designed to help you have meaningful and fun interactions with your friends, family, colleagues, and classmates, wherever they are. It’s the only app that has communities, events, chats, share files, meetings, presetating in one place.",
 						"Languages and technologies:",
-						"- Backend: NodeJS, Express JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
-						"- Frontend: Angular, React JS, Socket.IO - client, MediaSoup Client."
+						"- Backend: NodeJS Microservice - Express.JS, Socket.io, MediaSoup Server, Redis, MongoDB, NATs.",
+						"- Frontend: Angular, React.JS, Socket.IO - client, MediaSoup Client."
 					]
 				}, {
 					"name": "Live Stream Server",
@@ -181,11 +207,6 @@
 			"title": "Font Icons",
 			"href": "https://github.com/dragonfly6373/font-icons",
 			"description": "Python Script create font icons file from svgs. Output: myfont-icons.afm, myfont-icons.eot, myfont-icons.woff, myfont-icons.ttf, myfont-icons.woff2"
-		},
-		{
-			"title": "Media Catching",
-			"href": "https://github.com/dragonfly6373/MediaCatching",
-			"description": "Chrome Extension catching any media file url"
 		}
 	],
 	"educations": [
@@ -199,7 +220,7 @@
 		{
 			"title": "English - Communication",
 			"school_name": "TOEIC",
-			"grade": "545/990"
+			"grade": "545"
 		}
 	],
 	"activities": [
