@@ -120,7 +120,7 @@ export default class UserInfo {
                     newDomNode("h4", {innerText: item.school_name}),
                     newDomNode("em", {innerText: item.title}),
                     (item.start_time && item.end_time) ? newDomNode("em", {innerText: start + " - " + end}) : null,
-                    newDomNode("span", {innerText: "Grade: " + item.grade})
+                    item.grade ? newDomNode("span", {innerText: "Grade: " + item.grade}) : ""
                 ]
             }));
         });
