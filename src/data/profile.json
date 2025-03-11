@@ -1,9 +1,9 @@
 {
-	"root_url": "./data",
+	"root_url": "./src/data",
 	"first_name": "Nguyen",
 	"mid_name": "Trung",
 	"last_name": "Dang",
-	"avatar": "avatar.jpeg",
+	"avatar": "picture_non_background.png",
 	"contact_infos": [
         {
             "title": "Address",
@@ -28,32 +28,18 @@
 			"alias": "nguyen-dang-9934418a",
 			"href": "https://www.linkedin.com/in/nguyen-dang-9934418a/",
 			"icon": "linkedin"
-		},
-        {
-            "title": "Skype",
-			"alias": "nguyendang2012",
-            "href": "https://join.skype.invite/j5y2VG8DMEzD",
-            "icon": "skype"
-        },
-        {
-            "title": "Telegram",
-			"alias": "nguyendang2020",
-            "href": "https://t.me/nguyendang2020",
-            "icon": "message"
-        }
+		}
 	],
 	"abouts": [
-		"Strong data analysis, data structures, and algorithm skills.",
-		"Expertise in JavaScript, both Vanilla JS and frameworks like React, along with TypeScript and OOP principles.",
-		"Extensive experience in web development frameworks (NodeJS, React), Java (Spring MVC, Spring Boot), and database management (MySQL, PostgreSQL, MongoDB).",
-		"Customer experiences: customer requirement, Business Analyst, technical analysis.",
-		"Very strong Web Development: Vanilla JS, TypeScript, OOP, prototype, HTML, CSS",
-		"Have a good knowledge UML Design, Modeling Design, DataBase Schemas",
-		"Expected Job: Web Dev (Java - J2EE, Spring Boot), FullStack Web dev (JavaScript - NodeJS, React, HTML, CSS, jQuery), Geometry Map (draw line, polygon, marker, direction)",
+		"I bring nearly 10 years of experience as a software developer, with expertise in both backend and frontend roles. My skill set includes a strong foundation in object-oriented programming (OOP), data analysis, data structures, and algorithms.",
+		"I have an in-depth unde`rstanding of Java, covering advanced concepts such as reflection, collections (including inbound and outbound wildcards), Spring Boot, Spring Security, JPA, Hibernate, and Lombok.",
+		"On the frontend, I excel in JavaScript, including both Vanilla JS and frameworks like React, as well as TypeScript. My OOP knowledge extends to advanced topics like prototypal inheritance and metadata reflection, enabling me to build efficient and scalable web applications. I specialize in writing high-performance JavaScript and crafting custom solutions with raw CSS to create user-centric, accessible designs, without depending on frameworks like Bootstrap or Tailwind.",
+		"I also have solid expertise in UML design, modeling, and database schema development.",
+		"My professional experience includes working closely with customers to gather requirements, performing business analysis, and conducting technical evaluations.",
 		"Slogan: Nothing is impossible."
 	],
 	"summary": [
-		"Java: Java Core, OOP, Design Pattern, Spring Boot, Maven",
+		"Java: Java Core, OOP, Design Pattern, Spring Boot, Maven, JPA, Hibernate, Lombok",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
 		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express.js, Nest.js, Cluster, PM2, Puppeteer, Webpack, Gulp",
 		"DataBase: MySql, PostgreSQL, MongoDB",
@@ -77,7 +63,7 @@
 			"title": "Fullstack Node.js Developer",
 			"company_name": "Freelancer",
 			"contract": "remote",
-			"start_time": 1719100800000,
+			"start_time": 1725148800000,
 			"projects": [
 				{
 					"name": "Beings (1 months)",
@@ -101,9 +87,10 @@
 		},
 		{
 			"title": "Software Engineer",
-			"start_time": 1609606800000,
-			"end_time": 1727049600000,
+			"start_time": 1614556800000,
+			"end_time": 1725148800000,
 			"company_name": "VNPT IT",
+			"url": "https://www.linkedin.com/company/vnpt-it/about/",
 			"contract": "Full-time",
 			"kills": "Node.js, HTML, CSS, LESS, SCSS, SASS, Webpack, Angular, React JS, docker, Socket.io, WebRTC, Mediasoup, Kamailio, Asterisk, Linux, GitHub, Jenkins",
 			"projects": [
@@ -146,6 +133,7 @@
 			"start_time": 1512061200000,
 			"end_time": 1614445200000,
 			"company_name": "Evolus VN",
+			"url": "https://itviec.com/companies/evolus-planv",
 			"contract": "Full-time",
 			"kills": "Vanilla JS prototype, XHTML, Gulp, Webpack, HTML, CSS, LESS, SCSS, SASS, GitHub, Linux, MySQL, PostgreSQL",
 			"projects": [{
@@ -164,6 +152,7 @@
 			"start_time": 1417366800000,
 			"end_time": 1504112400000,
 			"company_name": "NEC VN",
+			"url": "https://www.linkedin.com/company/nec/about/",
 			"contract": "Full-time",
 			"kills": "Java - OOP, HTML, CSS, jQuery, MySQL",
 			"projects": [{
@@ -181,6 +170,7 @@
 			"start_time": 1367514000000,
 			"end_time": 1412010000000,
 			"company_name": "ESI Tech, Vietnam",
+			"url": "https://esi.vn/ep/home",
 			"contract": "Full-time",
 			"kills": "Vanilla JS, Linux, HTML, CSS, MySQL, XSLT, OpenLayers",
 			"projects": [{
@@ -212,14 +202,14 @@
 	"educations": [
 		{
 			"title": "Engineers's degree, Information Technology",
-			"school_name": "Water Resources University",
+			"school_name": "WRU",
 			"start_time": "09-05-2008",
 			"end_time": "12-30-2012",
 			"grade": "Good"
 		},
 		{
-			"title": "TOEIC - Communication",
-			"school_name": "English"
+			"title": "English",
+			"school_name": "TOEIC - Communication"
 		}
 	],
 	"activities": [

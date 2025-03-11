@@ -23,6 +23,7 @@
     object-fit: contain;
     border: 2px solid #FFF;
     transform: translate(2em, 30%);
+    background-color: rgb(255 255 255 / 62%);
 }
 .info {
     margin-top: 3em;
