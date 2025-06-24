@@ -75,9 +75,9 @@ export default class UserInfo {
         this.loadGeneralInfo();
 
         // load Skills
-        this.userInfo.skills.forEach(item => {
-            this.skillsElem.appendChild(new Skill(item).render())
-        });
+        // this.userInfo.skills.forEach(item => {
+        //     this.skillsElem.appendChild(new Skill(item).render())
+        // });
         // load Experiences
         this.userInfo.experiences.forEach(item => {
             this.experiencesElem.appendChild(new Experience(item).render());

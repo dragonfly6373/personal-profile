@@ -3,7 +3,7 @@
 	"first_name": "Nguyen",
 	"mid_name": "Trung",
 	"last_name": "Dang",
-	"avatar": "picture_non_background.png",
+	"avatar": "picture_non_background.jpg",
 	"contact_infos": [
         {
             "title": "Address",
@@ -46,18 +46,20 @@
 		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch, FFMPEG",
 		"Load balancers: Keepalived, HAProxy, NginX, Apache2",
 		"Message Queues: Redis Pub/Sub, NATs, RabbitMQ, Kafka",
+		"GitHub CI/CD: command, actions, workflow",
+		"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC, API Gateway",
 		"OS: Windows, MAC OS X, Linux Fedora, Ubuntu, Pop!_OS, Debian, CentOS",
-		"Other Tools: Docker, Git, Redmine, Svn, Jira, Docker, Rancher, Jenkins, Atlassian, Confluence"
+		"Other Tools: Docker, Redmine, Svn, Jira, Docker, Rancher, Jenkins, Atlassian, Confluence"
 	],
 	"skills": [
 		{"title": "Node JS", "score": 8},
 		{"title": "HTML", "score": 9},
 		{"title": "CSS, LESS, SASS", "score": 9},
 		{"title": "PostgreSQL", "score": 8},
-		{"title": "Java", "score": 8},
+		{"title": "Java", "score": 9},
 		{"title": "MongoDB", "score": 7},
 		{"title": "Kubernet", "score": 6},
-		{"title": "Linux", "score": 7}
+		{"title": "Github", "score": 7}
 	],
 	"experiences": [
 		{
@@ -72,7 +74,8 @@
 					"description": [
 						"Create innovative software businesses use for customer & market research. AI note-taking & analysis for research",
 						"Backend: Nodes.js - Nest.js, graphql, typeorm, MySql",
-						"Frontend: React.js"
+						"Frontend: React.js",
+						"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC"
 					]
 				},
 				{
@@ -210,7 +213,7 @@
 		},
 		{
 			"title": "English",
-			"school_name": "TOEIC - Communication"
+			"school_name": "TOEIC - Intermediate"
 		}
 	],
 	"activities": [

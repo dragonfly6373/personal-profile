@@ -3,7 +3,7 @@
 	"first_name": "Nguyen",
 	"mid_name": "Trung",
 	"last_name": "Dang",
-	"avatar": "picture_non_background.png",
+	"avatar": "picture_non_background.jpg",
 	"contact_infos": [
         {
             "title": "Address",
@@ -12,7 +12,7 @@
             "icon": "location"
         },
 		{
-			"title": "Phone + WhatsApp",
+			"title": "Mobile + WhatsApp",
 			"alias": "+84989043662",
 			"href": "tel:+84989043662",
 			"icon": "phone"
@@ -32,9 +32,9 @@
 	],
 	"abouts": [
 		"I bring nearly 10 years of experience as a software developer, with expertise in both backend and frontend roles. My skill set includes a strong foundation in object-oriented programming (OOP), data analysis, data structures, and algorithms.",
-		"I have an in-depth understanding of Java, covering advanced concepts such as reflection, collections (including inbound and outbound wildcards), Spring Boot, Spring Security, JPA, Hibernate, and Lombok.",
+		"I have an in-depth understanding of Java, covering advanced concepts such as reflection, generic collections, Spring Boot, Spring Security, JPA, Hibernate, and Lombok.",
 		"On the frontend, I excel in JavaScript, including both Vanilla JS and frameworks like React, as well as TypeScript. My OOP knowledge extends to advanced topics like prototypal inheritance and metadata reflection, enabling me to build efficient and scalable web applications. I specialize in writing high-performance JavaScript and crafting custom solutions with raw CSS to create user-centric, accessible designs, without depending on frameworks like Bootstrap or Tailwind.",
-		"I also have solid expertise in UML design, modeling, and database schema development.",
+		"I also have solid expertise in Microservice architecture, UML Architecture design, modeling, and database schema development.",
 		"My professional experience includes working closely with customers to gather requirements, performing business analysis, and conducting technical evaluations.",
 		"Slogan: Nothing is impossible."
 	],
@@ -44,9 +44,12 @@
 		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express.js, Nest.js, Cluster, PM2, Puppeteer, Webpack, Gulp",
 		"DataBase: MySql, PostgreSQL, MongoDB",
 		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch, FFMPEG",
-		"Load balancers: Keepalived, HAProxy, NginX, Apache2, Redis catching, Redis Pub/Sub, NATs, RabbitMQ",
+		"Load balancers: Keepalived, HAProxy, NginX, Apache2",
+		"Message Queues: Redis Pub/Sub, NATs, RabbitMQ, Kafka",
+		"GitHub CI/CD: command, actions, workflow",
+		"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC, API Gateway",
 		"OS: Windows, MAC OS X, Linux Fedora, Ubuntu, Pop!_OS, Debian, CentOS",
-		"Other Tools: Docker, Git, Redmine, Svn, Jira, Docker, Rancher, Jenkins, Atlassian, Confluence"
+		"Other Tools: Docker, Redmine, Svn, Jira, Docker, Rancher, Jenkins, Atlassian, Confluence"
 	],
 	"skills": [
 		{"title": "Node JS", "score": 9},
@@ -71,7 +74,8 @@
 					"description": [
 						"Create innovative software businesses use for customer & market research. AI note-taking & analysis for research",
 						"Backend: Nodes.js - Nest.js, graphql, typeorm, MySql",
-						"Frontend: React.js"
+						"Frontend: React.js",
+						"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC"
 					]
 				},
 				{
@@ -209,7 +213,7 @@
 		},
 		{
 			"title": "English",
-			"school_name": "TOEIC - Communication"
+			"school_name": "TOEIC - Intermediate"
 		}
 	],
 	"activities": [
