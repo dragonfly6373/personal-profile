@@ -31,7 +31,7 @@
 		}
 	],
 	"abouts": [
-		"I bring nearly 10 years of experience as a software developer, with expertise in both backend and frontend roles. My skill set includes a strong foundation in object-oriented programming (OOP), data analysis, data structures, and algorithms.",
+		"I bring nearly 12 years of experience as a software developer, with expertise in both backend and frontend roles. My skill set includes a strong foundation in object-oriented programming (OOP), data analysis, data structures, and algorithms.",
 		"I have an in-depth understanding of Java, covering advanced concepts such as reflection, generic collections, Spring Boot, Spring Security, JPA, Hibernate, and Lombok.",
 		"On the frontend, I excel in JavaScript, including both Vanilla JS and frameworks like React, as well as TypeScript. My OOP knowledge extends to advanced topics like prototypal inheritance and metadata reflection, enabling me to build efficient and scalable web applications. I specialize in writing high-performance JavaScript and crafting custom solutions with raw CSS to create user-centric, accessible designs, without depending on frameworks like Bootstrap or Tailwind.",
 		"I also have solid expertise in Microservice architecture, UML Architecture design, modeling, and database schema development.",
@@ -39,9 +39,9 @@
 		"Slogan: Nothing is impossible."
 	],
 	"summary": [
-		"Java: Java Core, OOP, Design Pattern, Spring Boot, Maven, JPA, Hibernate, Lombok",
+		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express.js, Nest.js, Cluster, PM2, Puppeteer, XVFB, Webpack, Gulp",
 		"Frontend HTML/Javascript/CSS: Vanilla JS, OOP, Prototype, Bootstrap, OpenLayers, CSS Less, SASS, React Js, React Native.",
-		"Node JS: OOP, Decorator Reflect MetaData, Electron, Express.js, Nest.js, Cluster, PM2, Puppeteer, Webpack, Gulp",
+		"Java: Java Core, OOP, Design Pattern, Spring Boot, Maven, JPA, Hibernate, Lombok",
 		"DataBase: MySql, PostgreSQL, MongoDB",
 		"WebRTC: MediaSoup, Kamailio Server, Asterisk Server, FreeSwitch, FFMPEG",
 		"Load balancers: Keepalived, HAProxy, NginX, Apache2",
@@ -63,23 +63,42 @@
 	],
 	"experiences": [
 		{
+			"title": "Node.js Developer",
+			"company_name": "Huge inc",
+			"contract": "Full-time",
+			"start_time": 1746144000000,
+			"end_time": 1750809600000,
+			"projects": [
+				{
+					"name": "The Ring",
+					"role": "Fullstack Node.js",
+					"description": [
+						"Create innovative software businesses use for customer. AI note-taking & analysis for research",
+						"Backend: Nodes.js - Nest.js, Prisma, Postgres",
+						"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC"
+					]
+				}
+			]
+		},
+		{
 			"title": "Fullstack Node.js Developer",
 			"company_name": "Freelancer",
 			"contract": "remote",
 			"start_time": 1725148800000,
+			"end_time": 1744675200000,
 			"projects": [
 				{
-					"name": "Beings (1 months)",
+					"name": "Beings",
 					"role": "Fullstack Node.js",
 					"description": [
 						"Create innovative software businesses use for customer & market research. AI note-taking & analysis for research",
 						"Backend: Nodes.js - Nest.js, graphql, typeorm, MySql",
 						"Frontend: React.js",
-						"GCP Cloud Run: Firebase Auth, Logger, Pub/Sub, gRPC"
+						"GCP Cloud Run: Firebase Auth, Logger, VOD, Live Stream"
 					]
 				},
 				{
-					"name": "Standage ltd (3 months)",
+					"name": "Standage ltd",
 					"role": "Fullstack Node.js",
 					"description": [
 						"Standage DigiTrad is a trade digital transformation platform that improves efficiency and digitalizes business processes, allowing trade operations to proceed more quickly and smoothly",
