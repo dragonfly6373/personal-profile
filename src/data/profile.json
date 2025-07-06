@@ -32,7 +32,7 @@
 	],
 	"abouts": [
 		"I bring nearly 12 years of experience as a software developer, with expertise in both backend and frontend roles. My skill set includes a strong foundation in object-oriented programming (OOP), data analysis, data structures, and algorithms.",
-		"I have an in-depth understanding of Java, covering advanced concepts such as reflection, generic collections, Spring Boot, Spring Security, JPA, Hibernate, and Lombok.",
+		"Backend: I have extensive knowledge of Node.js, Express.js, and Nest.js, all of which I work with using TypeScript. I’m proficient in integrating various business systems, including OAuth, SSO with Firebase, Firebase Storage, Mailgun, as well as connecting databases with Prisma or TypeORM. I also have experience with GCP Logger, GCP PubSub, and gRPC for microservice communication.",
 		"On the frontend, I excel in JavaScript, including both Vanilla JS and frameworks like React, as well as TypeScript. My OOP knowledge extends to advanced topics like prototypal inheritance and metadata reflection, enabling me to build efficient and scalable web applications. I specialize in writing high-performance JavaScript and crafting custom solutions with raw CSS to create user-centric, accessible designs, without depending on frameworks like Bootstrap or Tailwind.",
 		"I also have solid expertise in Microservice architecture, UML Architecture design, modeling, and database schema development.",
 		"My professional experience includes working closely with customers to gather requirements, performing business analysis, and conducting technical evaluations.",

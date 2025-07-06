@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/nguyendang5389/personal-profile",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "serve . -p 2025"
+    "start": "serve . -p 2025",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "serve": "^14.2.0"
   },
   "dependencies": {
