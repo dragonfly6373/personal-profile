@@ -88,11 +88,20 @@
 			"end_time": 1744675200000,
 			"projects": [
 				{
+					"name": "Part time remote jobs",
+					"role": "Fullstack Node.js",
+					"description": [
+						"Join in outsourcing team. Work as freelancer",
+						"Frontend: React.js custom UI and display styles",
+						"Backend: implement REST APIs handler"
+					]
+				},
+				{
 					"name": "Beings",
 					"role": "Fullstack Node.js",
 					"description": [
 						"Create innovative software businesses use for customer & market research. AI note-taking & analysis for research",
-						"Backend: Nodes.js - Nest.js, graphql, typeorm, MySql",
+						"Backend: Nodes.js - Nest.js, Graphql, TypeOrm, MySql",
 						"Frontend: React.js",
 						"GCP Cloud Run: Firebase Auth, Logger, VOD, Live Stream"
 					]
@@ -200,7 +209,7 @@
 				"role": "Software Developer",
 				"description": [
 					"Write JavaScript, jQuery, transform XML with XSLT file, draw chart with highchart, Map API (OpenLayers, Google Map), jQuery pages with JSON data",
-					"Environment: Linux (Oracle Linux, Fedora 18/19/20)."
+					"Environment: Linux (Oracle Linux, Fedora)."
 				]
 			}]
 		}
